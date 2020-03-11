@@ -35,6 +35,8 @@ header h1{
 }
 
 .flag-name {
+  padding-top: 3px;
+  color:#666;
   text-align: center;
 }
 
@@ -75,6 +77,16 @@ header h1{
   width: 100%;
 }
 
+.dark-blue {
+  background-color: rgb(38, 47, 112);
+  width: 100%;
+}
+
+.light-blue{
+  background-color: rgb(65, 160, 216);
+  width: 100%;
+}
+
 .blue {
   background-color: blue;
   width: 100%;
@@ -95,6 +107,12 @@ header h1{
   width: 100%;
 }
 
+.purple {
+  background-color: rgb(197, 25, 133);
+  width: 100%;
+}
+
+
 /* flag colors end here */
 
 
@@ -103,6 +121,13 @@ header h1{
 
 .blue-circle {
   background: blue;
+  width: 2em;
+  height: 2em;
+  border-radius: 50%;
+}
+
+.light-blue-circle {
+  background: #2196f3;
   width: 2em;
   height: 2em;
   border-radius: 50%;
