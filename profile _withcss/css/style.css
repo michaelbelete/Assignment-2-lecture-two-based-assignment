@@ -1,0 +1,56 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: "Archivo", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  background-color: rgba(255, 255, 255, 0.4);
+}
+header.header_area {
+  background: #1975d5;
+  width: 100%;
+}
+
+.top-head {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.item {
+  display: inline-block;
+  padding: 15px 36px 15px 36px;
+  color: #fff;
+  font-size: 14px;
+}
+
+.item.phone{
+  border-right: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.item.email{
+  float: right;
+}
+
+.item.email a{
+  color: #fff;
+  text-decoration: none;
+}
+
+.logo {
+  padding-top: 8px;
+  padding-left:1.7em;
+  font-size: 40px;
+  color: #fff;
+}
+
+.links li {
+  color: #fff;
+  list-style: none;
+  display: inline-block;
+  padding: 20px;
+} 
+
+.links li:hover{
+  color: #ccc;
+}
