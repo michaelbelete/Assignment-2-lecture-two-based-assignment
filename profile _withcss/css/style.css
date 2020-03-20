@@ -269,3 +269,7 @@ section.gallery td {
   color: #666;
   font-size: 14px;
 }
+
+.answer {
+  padding: 1em 0em;
+}
