@@ -42,13 +42,19 @@
     <div class="form-group">
       <div class="form-item">
         <h3>Get In Touch</h3>
-        <input type="text" placeholder="Enter Your Full Name" pattern="[A-Za-z]{2,50}" required>
-        <input type="email" placeholder="Enter Your Email" required>
-        <input type="url" placeholder="Enter Your Website (optional)" required>
-        <input type="tel" name="tel" pattern="0-9{10}" placeholder="Enter your phone" required>
-        <input type="text" placeholder="Enter your subject" required="">
-        <textarea cols="30" rows="5" placeholder="Enter your message here..."></textarea>
-        <button type="submit">Submit</button>
+        <form action="#" method="POST">
+          <input type="text" placeholder="Enter Your Full Name" pattern="[A-Za-z]{2,50}" required>
+          <input type="email" placeholder="Enter Your Email" required>
+          <input type="url" placeholder="Enter Your Website (optional)" required>
+          <input type="tel" name="tel" pattern="0-9{10}" placeholder="Enter your phone" required>
+          <select name="sex">
+            <option value="">Select Your sex</option>
+            <option value="f">Female</option>
+            <option value="m">Male</option>
+          </select>
+          <textarea cols="30" rows="5" placeholder="Enter your message here..."></textarea>
+          <button type="submit">Submit</button>
+        </form>
       </div>
     </div>
     <div class="location-map">

@@ -184,13 +184,14 @@ footer p {
   padding-right: 50px;
 }
 
-.form-item input {
+.form-item input, select {
   width: 100%;
   padding: 10px;
   margin-bottom: 10px;
   font-size: 16px;
   border: 1px solid #ccc;
   border-radius: 10px;
+  color: #666666;
 }
 
 .form-item textarea {
@@ -227,6 +228,44 @@ footer p {
   color: #fff;
   font-size: 15px;
 }
+
 .form-item button:hover {
   background: #61afff;
+}
+
+section.gallery {
+  background: #fff;
+  margin: 2em 2em;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+section.gallery th h3 {
+  font-size: 30px;
+  padding: 10px;
+}
+
+section.gallery th {
+  padding: 19px;
+}
+
+section.gallery td {
+  padding: 19px;
+}
+
+.gallery figure {
+  padding: 5px;
+  box-shadow: 0px 1px 3px 1px rgba(166, 165, 165, 0.5);
+}
+
+.gallery img {
+  width: 100%;
+  height: 20em;
+}
+
+.gallery figcaption {
+  padding: 10px;
+  border-top: 1px solid #ccc;
+  color: #666;
+  font-size: 14px;
 }
